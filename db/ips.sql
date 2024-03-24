@@ -1,0 +1,4 @@
+CREATE TABLE ips (
+  id SERIAL PRIMARY KEY,
+  ip_addr TEXT UNIQUE NOT NULL
+);
